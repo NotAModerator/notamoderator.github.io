@@ -8,10 +8,11 @@ function getCurrentCount() {
 	.then((response) => response.json())
 	.then(function(data) {
 		data.forEach(function(v) {total += parseInt(v.Count)})
-		counter.innerText = total + "/?"
+		counter.innerText = total + "/240000"
 	});
 }
 
 setInterval(getCurrentCount, 60000);
 
 getCurrentCount()
+
