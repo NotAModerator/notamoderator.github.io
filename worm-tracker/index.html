@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Worm Progress Tracker</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.png">
+		<style>
+			body {
+				background-image: url("./dirt.jpg");
+				color: #ffffff;
+				font-family: "Comic Sans MS";
+				animation: scrolling-background 15s infinite linear;
+				background-size: 350px 350px;
+			}
+			
+			.box {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				height: 90%;
+			}
+			
+			@keyframes scrolling-background{
+				100% {
+					background-position: 350px 350px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<h1>Worm Progress Tracker</h1>
+			<h3>Will update every minute, tracking the amount of cherry wood blocks placed.</h3>
+			<p>Blocks placed:</p>
+			<h1 id="counter"></h1>
+			<h1>Info</h1>
+			<ul>
+				<li>
+					Designed for the 20K Subscriber MEGA-WORM build for the <a href="https://twitch.tv/gavintino_">gavintino</a> channel.
+				</li>
+				<li>
+					Powered by Figura's networking capabilities and Google Sheets. This counter is based on segments <strong>I've</strong> captured.
+				</li>
+				<li>
+					Wish to contact me to report bugs or collect precious intel? Reach me on Discord <a href="https://discord.com">@notamoderatr</a>.
+				</li>
+			</ul>
+			<video height="150" autoplay muted loop controls>
+				<source src="./embed.mp4" type="video/mp4">
+			</video>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
