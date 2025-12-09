@@ -12,7 +12,8 @@ function getCurrentCount() {
 	});
 }
 
-setInterval(getCurrentCount, 60000);
+//setInterval(getCurrentCount, 60000);
 
-getCurrentCount()
+//getCurrentCount()
+
 
