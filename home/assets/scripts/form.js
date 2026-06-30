@@ -1,5 +1,5 @@
 //handle message board (very halfassed and probably has a crosssite attack but i hope to god sheetdb knows what its doing
-var uri = "https://sheetdb.io/api/v1/wpn7pr4fxce42"
+var uri = "https://sheetdb.io/api/v1/tuqmi70jkoga6"
 
 function sendMessage() {
 	var msg = document.getElementById("textbox").value;
